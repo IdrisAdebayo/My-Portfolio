@@ -1,0 +1,201 @@
+
+/* body background color is white*/
+
+body {
+    background-color: rgb(218, 235, 245);
+}
+
+/* styles for all header classes*/
+.container {
+    border: 6px solid black;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c4dce9;
+    color: #64137a;
+}
+
+/* styles applied to header class with h1 tags*/
+
+
+}
+
+.flex-item {
+color:rgb(61, 95, 163);
+font-size: 1.5rem;
+padding: 1rem;
+text-align: center;
+}
+
+
+.item-1{
+font-size: 2rem;
+
+}
+
+.item-2 .item-3 .item4 {
+background-color: darkblue;
+
+}
+
+
+/* styles applied to the header class with a div tag*/
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* styles applied to the header class with an unordered list wunder a div tag*/
+
+.header div ul {
+    list-style-type: none;
+}
+
+/* styles applied to the header class with a list item tag of an unordered list under a div tag*/
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* style for anchor tags*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* styles applied to the p tags*/
+
+p {
+    font-size: 20px;
+}
+
+/* styles applied to the hero class*/
+
+.hero {
+ /* height: 2400px; */
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("../images/Idris2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content { 
+    width: 75%;
+    display:inline-block;
+    margin-left: 20px;
+    
+}
+/* instruction of the left floatin */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* instruction of the right floating elements*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* styles applied to the content class*/
+
+
+
+/* styles applied to all images under the About-Me class*/
+
+.About-Me{
+    margin-bottom: 25px;
+    padding: 25px;
+    /* height: 200px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* styles applied to My Projects class*/
+.My-Projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    /* height: 300px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+
+
+}
+/* styles applied to the Contact-Me class*/
+
+.Contact-Me {
+    margin-bottom: 20px;
+    padding: 50px;
+    /* height: 300px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+
+
+}
+
+
+/* styles applied to images under the About  Me class*/
+
+.About-Me img {
+    max-height: 150px;
+}
+
+/* styles applied to images under My Projects class*/
+
+.My-Projects img {
+    height: 200px;
+}
+
+/* styles applied to images under the Contact Me class*/
+
+.Contact-Me img {
+    max-height: 200px;
+}
+
+/* styles applied to h2 fonts under the search-engine-optimization class*/
+
+.About-Me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* styles applied to h2 fonts under the online-reputation-management class*/
+
+.My-Projects h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* styles applied to h2 fonts under the social-media-marketing class*/
+
+.Contact-Me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* styles applied to the footer class*/
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* styles applied to the h3 fonts under the footer class*/
+
+.footer h3 {
+    font-size: 20px;
+}
