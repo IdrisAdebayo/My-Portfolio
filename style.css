@@ -1,9 +1,16 @@
 
-/* body background color is white*/
 
+  
+@media screen and (max-width: 576px){
+body {
+    background-color: rgb(213, 231, 195);
+    }
+}
+/* body background color is white*/
 body {
     background-color: rgb(218, 235, 245);
-}
+    }
+
 
 /* styles for all container classes*/
 .container {
