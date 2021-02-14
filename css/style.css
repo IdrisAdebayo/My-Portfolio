@@ -9,7 +9,7 @@ body {
 .container {
     border: 6px solid black;
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:cursive;
     background-color: #c4dce9;
     color: #64137a;
 }
@@ -38,35 +38,7 @@ background-color: darkblue;
 }
 
 
-/* styles applied to the header class with a div tag*/
 
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-/* styles applied to the header class with an unordered list wunder a div tag*/
-
-.header div ul {
-    list-style-type: none;
-}
-
-/* styles applied to the header class with a list item tag of an unordered list under a div tag*/
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-/* style for anchor tags*/
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
 /* styles applied to the p tags*/
 
@@ -76,8 +48,7 @@ p {
 
 /* styles applied to the hero class*/
 
-.hero {
- /* height: 2400px; */
+.details {
     width: 100%;
     margin-bottom: 20px;
     background-image: url("../images/Idris2.jpg");
@@ -86,21 +57,18 @@ p {
 }
 
 .content { 
-    width: 75%;
+    width: 100%;
     display:inline-block;
     margin-left: 20px;
     
 }
 /* instruction of the left floatin */
-.float-left {
+/*.float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* instruction of the right floating elements*/
-.float-right {
-    float: right;
-    margin-left: 25px;
+
 }
 
 /* styles applied to the content class*/
@@ -112,44 +80,39 @@ p {
 .About-Me{
     margin-bottom: 25px;
     padding: 25px;
-    /* height: 200px; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    font-family:cursive;
+    background-color: #7c45d4;
     color: #ffffff;
 }
-
+/*.right-float {
+    float: right;
+    margin-left: 25px;
+}
 
 /* styles applied to My Projects class*/
 .My-Projects {
-    margin-bottom: 20px;
-    padding: 50px;
-    /* height: 300px; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    margin-bottom: 25px;
+    padding: 25px;
+    font-family:cursive;
+    background-color: #7c45d4;
     color: #ffffff;
-
-
-
 }
 /* styles applied to the Contact-Me class*/
 
 .Contact-Me {
-    margin-bottom: 20px;
-    padding: 50px;
-    /* height: 300px; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    margin-bottom: 25px;
+    padding: 25px;
+    font-family:cursive;
+    background-color: #7c45d4;
     color: #ffffff;
-
-
-
 }
-
 
 /* styles applied to images under the About  Me class*/
 
 .About-Me img {
     max-height: 150px;
+    float: left;
+    margin: 10px;
 }
 
 /* styles applied to images under My Projects class*/
@@ -190,7 +153,7 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:cursive;
     text-align: center;
 }
 
