@@ -93,6 +93,15 @@ p {
     margin: 10px;
 }
 
+@media screen and (max-width: 576px){
+    .About-Me img {
+        max-height: 50px;
+        float: left;
+        margin: 0px;
+        }
+    }
+
+
 
 /* styles applied to h2 fonts under the search-engine-optimization class*/
 
