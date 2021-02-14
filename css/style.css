@@ -5,20 +5,17 @@ body {
     background-color: rgb(218, 235, 245);
 }
 
-/* styles for all header classes*/
+/* styles for all container classes*/
 .container {
     border: 6px solid black;
+    margin: 20px;
     padding: 20px;
     font-family:cursive;
     background-color: #c4dce9;
     color: #64137a;
 }
 
-/* styles applied to header class with h1 tags*/
-
-
-}
-
+/* styles applied to all flex items*/
 .flex-item {
 color:rgb(61, 95, 163);
 font-size: 1.5rem;
@@ -26,73 +23,47 @@ padding: 1rem;
 text-align: center;
 }
 
-
+/*style appiled to item-1 class*/
 .item-1{
 font-size: 2rem;
 
 }
 
+/*style appiled to item-2, item-3 and item-4 specific classes*/
 .item-2 .item-3 .item4 {
-background-color: darkblue;
+font-size: 1.5rem;;
 
 }
-
-
-
 
 /* styles applied to the p tags*/
-
 p {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
-/* styles applied to the hero class*/
-
-.details {
-    width: 100%;
-    margin-bottom: 20px;
-    background-image: url("../images/Idris2.jpg");
-    background-size: cover;
-    background-position: center;
+.My-Projects p li{
+    font-size: 1.5rem;
 }
-
 .content { 
     width: 100%;
     display:inline-block;
-    margin-left: 20px;
-    
+    margin: 20px;
 }
-/* instruction of the left floatin */
-/*.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-
-}
-
-/* styles applied to the content class*/
-
-
 
 /* styles applied to all images under the About-Me class*/
 
 .About-Me{
-    margin-bottom: 25px;
-    padding: 25px;
+    margin-bottom: 20px;
+    padding: 15px;
     font-family:cursive;
     background-color: #7c45d4;
     color: #ffffff;
 }
-/*.right-float {
-    float: right;
-    margin-left: 25px;
-}
+
 
 /* styles applied to My Projects class*/
 .My-Projects {
-    margin-bottom: 25px;
-    padding: 25px;
+    margin-bottom: 10px;
+    padding: 15px;
     font-family:cursive;
     background-color: #7c45d4;
     color: #ffffff;
@@ -100,14 +71,14 @@ p {
 /* styles applied to the Contact-Me class*/
 
 .Contact-Me {
-    margin-bottom: 25px;
-    padding: 25px;
+    margin-bottom: 10px;
+    padding: 15px;
     font-family:cursive;
     background-color: #7c45d4;
     color: #ffffff;
 }
 
-/* styles applied to images under the About  Me class*/
+/* styles applied to images under the About-Me class*/
 
 .About-Me img {
     max-height: 150px;
@@ -115,50 +86,32 @@ p {
     margin: 10px;
 }
 
-/* styles applied to images under My Projects class*/
-
-.My-Projects img {
-    height: 200px;
-}
-
-/* styles applied to images under the Contact Me class*/
-
-.Contact-Me img {
-    max-height: 200px;
-}
 
 /* styles applied to h2 fonts under the search-engine-optimization class*/
 
 .About-Me h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 10px;
+    font-size: 28px;
 }
 
 /* styles applied to h2 fonts under the online-reputation-management class*/
 
 .My-Projects h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 10px;
+    font-size: 28px;
 }
 
 /* styles applied to h2 fonts under the social-media-marketing class*/
 
 .Contact-Me h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 10px;
+    font-size: 28px;
 }
 
-/* styles applied to the footer class*/
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family:cursive;
-    text-align: center;
-}
 
 /* styles applied to the h3 fonts under the footer class*/
 
 .footer h3 {
+    font-family:cursive;
     font-size: 20px;
 }
