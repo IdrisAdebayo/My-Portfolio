@@ -131,3 +131,22 @@ p {
     font-family:cursive;
     font-size: 20px;
 }
+
+.projects {
+display: flex;
+justify-content: space-around;
+}
+
+.projects img {
+    max-width: 200px;
+}
+.projects a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+}
