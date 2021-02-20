@@ -125,12 +125,12 @@ p {
 }
 
 
-/* styles applied to the h3 fonts under the footer class*/
+/* styles applied to the h3 fonts under the footer class
 
 .footer h3 {
     font-family:cursive;
     font-size: 20px;
-}
+}*/
 
 /* styles applied to the projects class*/
 .projects {
