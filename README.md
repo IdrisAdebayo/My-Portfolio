@@ -8,12 +8,10 @@ If your README is very long, add a table of contents to make it easy for users t
 * [deployed link](#deployed link)
 * [description](#description)
 * [Credits](#credits)
-* [License](#license)
-
 
 
 ## Usage 
-image of finished project
+Image of finished project
 ![image of deployed app](./assets/images/portfolio.jpg)
 
 ## deployed link: https://idrisadebayo.github.io/My-Portfolio/
