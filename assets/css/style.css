@@ -132,14 +132,19 @@ p {
     font-size: 20px;
 }
 
+/* styles applied to the projects class*/
 .projects {
 display: flex;
 justify-content: space-around;
 }
 
+
+/* styles applied to the images  under the projects class*/
 .projects img {
     max-width: 200px;
 }
+
+/* styles applied to the div tags within the anchor tag of the projects class*/
 .projects a div {
     display: flex;
     flex-direction: column;
